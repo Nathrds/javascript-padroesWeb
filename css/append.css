@@ -1,0 +1,68 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(../img/fundo-5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.618);
+    color: white;
+    width: 50vw;
+    height: 78vh;
+    border-radius: 50px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#mylist {
+    list-style: circle;
+}
+
+.lista {
+    padding-left: 35vh;
+    line-height: 3em;
+}
+
+#appendButton {
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(1, 82, 99);
+    color: white;
+    transition:  transform 0.2s ease;
+}
+
+#appendButton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

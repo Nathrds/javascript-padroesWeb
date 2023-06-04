@@ -1,0 +1,80 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mediav1 {
+    background-image: url("../img/fundo-2.jpg");
+    background-size: cover; /* ajustar o tamanho da imagem para cobrir todo o elemento */
+    background-repeat: no-repeat; /* evitar que a imagem seja repetida */
+    background-attachment: fixed; /*para fixar a imagem*/
+    background-position: center; /*para centralizar*/
+    background-color: black;
+}
+
+#mediav2 {
+    background-image: url("../img/fundo-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-color: black;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.615);
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 50vw;
+    height: 55vh;
+}
+
+h1, p {
+    padding: 15px 0;
+}
+
+#media {
+    color: blue;
+}
+
+#situacao {
+    color: red;
+}
+
+header {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#botao {
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(1, 82, 99);
+    color: white;
+    transition:  transform 0.2s ease;
+  }
+
+ #botao:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  .final {
+    padding-top: 20px;
+  }
