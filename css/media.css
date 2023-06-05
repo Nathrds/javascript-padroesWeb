@@ -1,5 +1,8 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #mediav1 {
@@ -22,6 +25,7 @@
 
 .container {
     position: absolute;
+    padding: 35px 0px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,30 +33,28 @@
     color: white;
     text-align: center;
     border-radius: 50px;
-    width: 50vw;
-    height: 55vh;
+    min-width: 400px;
+    width: 40vw;
 }
 
-h1, p {
-    padding: 15px 0;
-}
+h1, #botao, .input_media { margin-bottom: 15px; }
 
-#media {
-    color: blue;
-}
+p { padding: 0 0 6px; }
 
-#situacao {
-    color: red;
-}
+p:last-child{ padding: 0; }
+
+#media { color: #0000ff; }
+
+#situacao { color: #ff0000; }
 
 header {
-    text-align: center;
-    padding-top: 60px;
+    text-align: left;
+    padding: 45px 30px 30px;
     font-size: 25px;
 }
 
 header a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -66,15 +68,29 @@ a:hover {
     height: 40px;
     border-radius: 20px;
     background-color: rgb(1, 82, 99);
-    color: white;
+    color: #ffffff;
     transition:  transform 0.2s ease;
-  }
+}
 
- #botao:hover {
+#botao:hover {
     cursor: pointer;
     transform: scale(1.1);
-  }
+}
 
-  .final {
-    padding-top: 20px;
-  }
+.final { padding-top: 20px; }
+
+.input_media{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.111);
+    border: 1px solid #fff;
+    color: #fff;
+    transition: border 300ms ease-in-out;
+}
+
+.input_media:focus{
+    border: 1px solid #00bfff;
+}
