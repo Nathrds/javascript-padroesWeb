@@ -2,14 +2,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body {
-    background-color: black;
-}
+body { background-color: black; }
 
-.image-container {
-    position: relative;
-  }
-
+.image-container { position: relative; }
 
 .imagem{
     display: flex;
@@ -18,9 +13,7 @@ body {
     margin: 50px auto;
 }
 
-.imagem img {
-    border-radius: 300px;
-}
+.imagem img { border-radius: 300px; }
 
 .text-link {
     position: absolute;
@@ -32,13 +25,15 @@ body {
 }
 
 .text-link a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     line-height: 2em;
+    transition: 200ms ease-in-out;
+    text-decoration: overline transparent;
 }
 
 a:hover {
     cursor: pointer;
-    color: black;
-    text-decoration: overline;
+    color: #000000;
+    text-decoration: overline #000;
 }
