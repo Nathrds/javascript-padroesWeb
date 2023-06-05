@@ -2,7 +2,8 @@
 Exercícios de Javascript da aula Padrões Web - Faculdade de Tecnologia e Inovação SENAC, DF.
 <br/>
 
-## [Exercícios](https://nathrds.github.io/javascript-padroesWeb/index.html)
+## [Site dos Exercícios](https://nathrds.github.io/javascript-padroesWeb/index.html)
+Site com os exercícios propostos pelo professor.
 
 <br/>
 
