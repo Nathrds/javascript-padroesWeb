@@ -3,7 +3,8 @@ Exercícios de Javascript da aula Padrões Web - Faculdade de Tecnologia e Inova
 <br/>
 
 ## [Site dos Exercícios](https://nathrds.github.io/javascript-padroesWeb/index.html)
-Site com os exercícios propostos pelo professor.
+Site com os exercícios propostos pelo professor. <br/>
+Grupo: Nathália Rodrigues, Nathália Zuza, Jéssica Castro, Letícia Lacerda.
 
 <br/>
 
