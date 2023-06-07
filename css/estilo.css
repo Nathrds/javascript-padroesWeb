@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 19px;
 }
 
 body { background-color: black; }
@@ -205,10 +206,7 @@ h2{
     padding: 10px 0;
 }
 
-.mylist {
-    list-style: none;
-    padding-left: 16px;
-}
+.mylist { list-style: none; }
 
 .lista {
     line-height: 3em;
@@ -227,4 +225,8 @@ h2{
 #appendButton:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.cor {
+    margin-left: 10px;
 }
